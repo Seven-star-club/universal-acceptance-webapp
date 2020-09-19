@@ -1,0 +1,72 @@
+h1{
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight:bold;
+  font-size: 3.5rem;
+}
+
+p{
+  color: #ebf4f5;
+  font-family: 'Heebo', sans-serif;
+  font-weight: 300;
+}
+
+form{
+  padding:30% 20%;
+}
+
+.container-fluid{
+  background-color:#ff1b6b;
+  color:#fff;
+  padding: 4% 7%;
+}
+
+.translationArea{
+  text-align: center;
+}
+
+.row{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.tooryanaadImage{
+  padding: 7% 1%;
+  height: 390px;
+}
+
+.btn-outline-dark{
+  color: #ff1b6b;
+  border-color: #ff1b6b;
+
+}
+
+.btn-outline-dark:hover{
+  color:#fff;
+  background-color:  #ff1b6b;
+  border-color: #ff1b6b;
+}
+
+.form-group{
+  padding: 3% 0%;
+}
+
+.footer{
+  text-align: center;
+  background-color:#ff1b6b;
+  color:#fff;
+  padding: 1% 3%;
+
+}
+.emailInput{
+  position: relative;
+}
+
+@media (max-width: 992px) {
+  .tooryanaadImage{
+   height: 190px;
+  }
+
+  .emailInput{
+    transform: translateY(-20%);
+  }
+}
